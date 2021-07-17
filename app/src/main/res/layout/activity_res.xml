@@ -29,42 +29,50 @@
         <TextView
             android:id="@+id/vwNom"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwApe"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwIde"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwEma"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwCel"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwCiu"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwUni"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <TextView
             android:id="@+id/vwPrg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#0E0E0E" />
 
         <View
             android:id="@+id/divider"
