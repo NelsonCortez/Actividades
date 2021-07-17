@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityReg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt1Reg"
+            android:textColor="#3F51B5" />
+
+        <EditText
+            android:id="@+id/txtNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombres"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtApe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Apellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtIde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Identidad"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtEma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtCel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Celular"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/txtCiu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ciudad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtUni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Universidad"
+            android:inputType="textPersonName|textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtPrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Carrera"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/vwErr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EF0505" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Resultado"
+            android:text="@string/continuar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

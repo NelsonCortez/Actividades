@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Actividades</string>
+    <string name="titulo">NACA-PP</string>
+    <string name="registro">Registro</string>
+    <string name="continuar">Continuar</string>
+    <string name="inicio">Inicio</string>
+    <string name="salir">Salir</string>
+
+    <string name="txt1Bien">Bienvenidos a mi aplicación Android con multiples actividades.</string>
+    <string name="txt2Bien">Registrese y permita conocer sus datos para manternerle informado sobre nuestros servicios basado en sus preferencias.</string>
+    <string name="txt1Reg">Registro de participantes.  Diligencie sus datos personales y de contacto.</string>
+    <string name="txt1Res">Sus datos fueron registrados correctamente en nuestar base de datos de afiliados.</string>
+    <string name="txt2Res">Gracias por compartir su información con nosotros,  esto permitirá conocer más acerca de nuestros afiliados
+         y nos permitirá mejorar nuestra atención, ampliar nuestra gama de servicios y red de cobertura.</string>
+
+</resources>
